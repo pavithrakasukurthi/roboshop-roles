@@ -10,7 +10,7 @@
 
     - name: copy mongo repo
       ansible.builtin.import_role:
-       name: command
+       name: common
        tasks_from: copy-mongorepo.yaml
 
     - name: installing mongodb client
